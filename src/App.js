@@ -1,12 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import ScrollToTop from './components/ScrollToTop';
-import Layout from './components/Layout';
 import Contact from './pages/Contact';
 import Courses from './pages/Courses';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
-import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 function App() {

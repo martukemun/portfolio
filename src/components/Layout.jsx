@@ -6,7 +6,7 @@ function Layout({ children }) {
   return (
     <div>
       <Header />
-      <div className='content font-mont overflow-x-hidden'>{children}</div>
+      <div className='content font-mont'>{children}</div>
 
       <Footer />
     </div>
